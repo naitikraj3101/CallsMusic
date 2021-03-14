@@ -14,6 +14,7 @@ async def start_(client: Client, message: Message):
 ᴍᴏʜᴏɴ  ᴍᴀᴋʟᴜᴍ  ᴊɪᴋᴀ  ᴀᴅᴀ  ᴍᴀsᴀʟᴀʜ  ᴘᴀᴅᴀ  ᴋᴜᴀʟɪᴛᴀs  ᴍᴜsɪᴋ.
 
 Jika ingin menggunakan cukup ijin ke owner hehe
+Owner ganteng @betterthaaanhecan
 Support Channel Owner Ya @ruangpublikk
 
 Tutorial menggunakan bot cek dibawah.""",
