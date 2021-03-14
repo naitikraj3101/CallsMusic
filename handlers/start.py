@@ -14,7 +14,7 @@ async def start_(client: Client, message: Message):
 ᴍᴏʜᴏɴ  ᴍᴀᴋʟᴜᴍ  ᴊɪᴋᴀ  ᴀᴅᴀ  ᴍᴀsᴀʟᴀʜ  ᴘᴀᴅᴀ  ᴋᴜᴀʟɪᴛᴀs  ᴍᴜsɪᴋ.
 
 Jika ingin menggunakan cukup ijin ke owner hehe
-Owner ganteng @betterthaaanhecan
+Owner ganteng : Molana
 Support Channel Owner Ya @ruangpublikk
 
 Tutorial menggunakan bot cek dibawah.""",
@@ -23,6 +23,9 @@ Tutorial menggunakan bot cek dibawah.""",
                 [
                     InlineKeyboardButton(
                         "Cara Pakai", url="https://telegra.ph/ᴏ-ʟ-ᴀ-ɴ-ᴀ-03-14"
+                   ),     
+                    InlineKeyboardButton(
+                        "Owner", url="https://telegram.me/betterthaanhecan"
                     )
                 ]
             ]
