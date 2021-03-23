@@ -7,30 +7,14 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
     & filters.private
     & ~ filters.edited
 )
-async def start_(client: Client, message: Message):
+async  def  start_ ( client : Client , message : Message ):
     await message.reply_text(
         f"""<b> Alo Kawan, {message.from_user.first_name}!</b>
-ᴇᴜᴘʜᴏʀɪᴀ  ᴍᴜsɪᴄ  ᴀᴅᴀʟᴀʜ  ʙᴏᴛ   ᴍᴜsɪᴄ  ᴄᴀʟʟ  ɢʀᴜᴘ👑!
-ᴍᴏʜᴏɴ  ᴍᴀᴋʟᴜᴍ  ᴊɪᴋᴀ  ᴀᴅᴀ  ᴍᴀsᴀʟᴀʜ  ᴘᴀᴅᴀ  ᴋᴜᴀʟɪᴛᴀs  ᴍᴜsɪᴋ.
+ᴇᴜᴘʜᴏʀɪᴀ ᴍᴜsɪᴄ ᴀᴅᴀʟᴀʜ ʙᴏᴛ ᴍᴜsɪᴄ ᴄᴀʟʟ ɢʀᴜᴘ👑!
+ᴍᴏʜᴏɴ ᴍᴀᴋʟᴜᴍ ᴊɪᴋᴀ ᴀᴅᴀ ᴍᴀsᴀʟᴀʜ ᴘᴀᴅᴀ ᴋᴜᴀʟɪᴛᴀs ᴍᴜsɪᴋ.
+If you want to use just permission from the owner hehe 😂
+Handsome owner: @Naitikraj3101
 
-Jika ingin menggunakan cukup ijin ke owner hehe
-Owner ganteng : Molana
-Support Channel Owner Ya @ruangpublikk
-
-Tutorial menggunakan bot cek dibawah.""",
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        "Cara Pakai", url="https://telegra.ph/ᴏ-ʟ-ᴀ-ɴ-ᴀ-03-14"
-                   ),     
-                    InlineKeyboardButton(
-                        "Owner", url="https://telegram.me/betterthaanhecan"
-                    )
-                ]
-            ]
-        )
-    )
 
 
 @Client.on_message(
@@ -38,9 +22,9 @@ Tutorial menggunakan bot cek dibawah.""",
     & filters.group
     & ~ filters.edited
 )
-async def start(client: Client, message: Message):
+async  def  start ( client : Client , message : Message ):
     await message.reply_text(
-        "Hai, mau nyari lagu ya?",
+        "Hi, want to find a song?" ,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
