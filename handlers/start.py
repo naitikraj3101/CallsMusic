@@ -24,6 +24,8 @@ Handsome owner: @Naitikraj3101
 )
 async  def  start ( client : Client , message : Message ):
     await message.reply_text(
+If you want to use just permission from the owner hehe 😂
+Handsome owner: @Naitikraj3101
         "Hi, want to find a song?" ,
         reply_markup=InlineKeyboardMarkup(
             [
