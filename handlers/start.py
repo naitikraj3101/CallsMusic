@@ -10,8 +10,6 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 async  def  start_ ( client : Client , message : Message ):
     await message.reply_text(
         f"""<b> Alo Kawan, {message.from_user.first_name}!</b>
-ᴇᴜᴘʜᴏʀɪᴀ ᴍᴜsɪᴄ ᴀᴅᴀʟᴀʜ ʙᴏᴛ ᴍᴜsɪᴄ ᴄᴀʟʟ ɢʀᴜᴘ👑!
-ᴍᴏʜᴏɴ ᴍᴀᴋʟᴜᴍ ᴊɪᴋᴀ ᴀᴅᴀ ᴍᴀsᴀʟᴀʜ ᴘᴀᴅᴀ ᴋᴜᴀʟɪᴛᴀs ᴍᴜsɪᴋ.
 If you want to use just permission from the owner hehe 😂
 Handsome owner: @Naitikraj3101
 
